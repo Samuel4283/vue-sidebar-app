@@ -1,0 +1,66 @@
+<template>
+  <div class="layout">
+    <!-- 側邊欄 -->
+    <Sidebar :visible="showSidebar" />
+
+    <!-- 主要內容 -->
+    <div class="main-content">
+
+      <!-- 切換側邊按鈕 -->
+       <button class="toggle-btn" @click="toggleSidebar">
+          <i :class="showSidebar ? 'fas fa-bars' : 'fas fa-afgle-right'"></i>
+       </button>
+
+      <router-view />
+    </div>
+  </div>
+</template>
+
+
+<script>
+import Sidebar from './components/Sidebar.vue'
+
+export default {
+  components:{
+    Sidebar
+  },
+  data(){
+    return{
+      showSidebar: true
+    };
+  },
+  methods:{
+    toggleSidebar(){
+      this.showSidebar = !this.showSidebar;
+    }
+  }
+};
+</script>
+
+<style scoped>
+.layout {
+  display: flex;
+  height: 100vh; 
+  position: relative;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  position: relative;
+}
+
+/* 側邊按鈕切換 */
+.toggle-btn {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 9999;
+  background-color: #fff;
+  border :1px solid #ccc;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 18px;
+}
+</style>
