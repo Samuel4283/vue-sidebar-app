@@ -4,13 +4,13 @@ import Todo from '../views/Todo.vue'
 import About from '../views/About.vue'
 
 const routes = [
-    {path: '/', component: Home},
+    {path: '/', name: 'Home',component: Home},
     {path: '/todo', component: Todo},
     {path: '/about', component: About}
 ]
 
 const router = createRouter({
-    history: createWebHistory(),
+    history: createWebHistory(import.meta.env.BASE_URL),
     routes
 })
 
