@@ -21,8 +21,11 @@ npm install @tsparticles/vue3
 
 [ISSUE]
 - 跑出來變成白屏 尚未找到解決方案
+[SOLUTION]
+- 更正 <vue-particles id="tsparticles" :options="particlesOptions" />
 
-
+# 開發紀錄 - 2025/05/15
+- 將todo 改為 作品集
 
 [TODO]
 - 完善其他元件（Header、Footer、Content 等）。
