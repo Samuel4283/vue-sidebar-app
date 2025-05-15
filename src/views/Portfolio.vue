@@ -82,21 +82,21 @@ const projects = ref([
     title: "Vue 作品展示頁",
     description: "這是一個使用 Vue 製作的展示頁，支援 RWD。",
     image: "https://via.placeholder.com/300x150?text=Project+1",
-    link: "https://你的github頁面或demo連結"
+    link: "https://samuel4283.me/"
   },
   {
     id: 2,
-    title: "AI 圖像標註工具",
+    title: "AI 圖像標註工具 (開發中)",
     description: "結合 Python + Vue 實作的標註工具，支援 MySQL 管理資料。",
     image: "https://via.placeholder.com/300x150?text=Project+2",
-    link: "https://你的demo2"
+    link: "#"
   },
   {
     id: 3,
-    title: "個人部落格網站",
-    description: "使用 Vue + Markdown 建置的部落格系統。",
+    title: "Work Managemet OS (開發中)",
+    description: "使用 Vue + Others 後端 做出可打包 具有設計感的 TODO 管理系統",
     image: "https://via.placeholder.com/300x150?text=Project+3",
-    link: "https://你的blog-link"
+    link: "#"
   }
 ])
 </script>
