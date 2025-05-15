@@ -18,7 +18,7 @@
         <div class="tags">
           <span class="tag">👨‍💻 開發者</span>
           <span class="tag">🎨 創作者</span>
-          <span class="tag">📷 攝影師</span>
+          <span class="tag">💻 工程師</span>
         </div>
       </section>
   
@@ -55,7 +55,6 @@
   
 <script setup>
 import { ref } from 'vue'
-import Particles from "@tsparticles/vue3";
 const particlesOptions =ref({
   background: {
     color: { value: "#000" }
@@ -107,7 +106,6 @@ const particlesOptions =ref({
   .hero-section {
     position: relative;
     height: 100vh;
-    background: #000;
     color: white;
     display: flex;
     justify-content: center;
