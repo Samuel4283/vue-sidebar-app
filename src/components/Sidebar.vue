@@ -3,7 +3,7 @@
         <div v-if="visible" class="sidebar">
             <h3>功能選單</h3>
             <ul>
-                <li><router-link to="/">首頁</router-link></li>
+                <li><router-link to="/"><i class="fa-solid fa-house"></i>首頁</router-link></li>
                 <li><router-link to="/Portfolio">作品集</router-link></li>
                 <li><router-link to="/about">關於我</router-link></li>
             </ul>

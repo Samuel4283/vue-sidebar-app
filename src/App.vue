@@ -8,7 +8,7 @@
 
       <!-- 切換側邊按鈕 -->
        <button class="toggle-btn" @click="toggleSidebar">
-        <i :class="showSidebar ? 'fas fa-bars' : 'fas fa-angle-right'" style="color: blue;"></i>
+        <i :class="showSidebar ? 'fas fa-angle-left' : 'fas fa-solid fa-list'" style="color: blue;"></i>
        </button>
 
       <router-view />
@@ -26,7 +26,7 @@ export default {
   },
   data(){
     return{
-      showSidebar: true
+      showSidebar: false
     };
   },
   methods:{
