@@ -6,7 +6,7 @@
         <vue-particles id="tsparticles" :options="particlesOptions" />
   
         <div class="hero-content">
-          <h1>Hi, I’m Samuel — Developer, Designer, Dreamer.</h1>
+          <h1>Hello, I’m Samuel — Developer, Designer, Dreamer.</h1>
           <div class="scroll-down">⬇ Scroll Down</div>
         </div>
       </div>
