@@ -45,9 +45,8 @@
       <footer class="footer">
         <p>📫 聯絡我：qazwsxedc4283@gmail.com</p>
         <div class="socials">
-          <i class="fab fa-github"></i>
-          <i class="fab fa-linkedin"></i>
-          <i class="fab fa-twitter"></i>
+          <a class="instagram-link" rel="noopener noreferrer" target="_blank" href="https://github.com/Samuel4283"><i class="fab fa-github"></i></a>
+          <a class="instagram-link" rel="noopener noreferrer" target="_blank" href="https://www.instagram.com/samuel_lin_0602"><i class="fa-brands fa-instagram"></i></a>
         </div>
       </footer>
     </div>
@@ -178,6 +177,7 @@ const particlesOptions =ref({
   }
   
   .socials i {
+    color: white;
     margin: 10px;
     cursor: pointer;
   }
