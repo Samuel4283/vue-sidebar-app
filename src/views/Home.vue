@@ -13,7 +13,7 @@
   
       <!-- 關於我 -->
       <section class="about-section">
-        <img class="avatar" src="../assets/coding_cat.png" alt="Avatar" />
+        <img class="avatar" src="@/assets/coding_cat.png" alt="Avatar" />
         <p class="intro">一位熱愛創作與開發的全端工程師。</p>
         <div class="tags">
           <span class="tag">👨‍💻 開發者</span>
